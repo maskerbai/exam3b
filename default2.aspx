@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="postbackdefault.aspx.vb" Inherits="_Default" culture="auto:en-US" UIculture="auto"%>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="default2.aspx.vb" Inherits="_Default" %>
 
 <!DOCTYPE html>
 
@@ -18,7 +18,7 @@
         <center>
         <h1><asp:Label ID="lb_header1" runat="server"  text="Welcome to 6K:183" meta:resourcekey="lb_header1" /></h1>
             <h3><asp:Label ID="lb_header2" runat="server"  text="Software design and development" meta:resourcekey="lb_header2" /></h3>
-            </center>
+        </center>
 
         
 
@@ -31,7 +31,7 @@
                 <br />
                 <br />
                 
-            <asp:DropDownList ID="language1" runat="server" Width="108px" Height="22px">
+            <asp:DropDownList ID="language1" runat="server" Width="108px" AutoPostBack="true" Height="22px">
                 
                 
                 <asp:ListItem Value="en">English</asp:ListItem>
@@ -48,13 +48,8 @@
         <div id="rightside">
 
 
-            
-
-
-
-
             <asp:Label ID="Label6" runat="server" Text="Hello" meta:resourcekey="Label6"></asp:Label>
-            <asp:Label ID="Label7" runat="server" meta:resourcekey="label7"></asp:Label>
+            <asp:Label ID="Label7" runat="server" meta:resourcekey="label7" ></asp:Label>
             <asp:Label ID="Label15" runat="server" meta:resourcekey="label15" />
             <asp:Label ID="Label8" runat="server" ></asp:Label>
 

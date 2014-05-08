@@ -31,7 +31,7 @@
                 <br />
                 <br />
                 
-            <asp:DropDownList ID="language1" runat="server" AutoPostBack="true" Width="108px" Height="22px">
+            <asp:DropDownList ID="language1" runat="server" AutoPostBack="true" Width="110px" Height="22px">
                 
                 
                 <asp:ListItem Value="en">English</asp:ListItem>
@@ -68,7 +68,7 @@
             &nbsp;<asp:TextBox ID="tb_salary" runat="server" Width="100px"></asp:TextBox>
             .<br />
             <br />
-            <asp:Button ID="bt_submit" runat="server" meta:resourcekey="bt_submit" PostBackUrl="~/postbackdefault.aspx" />
+            <asp:Button ID="bt_submit" runat="server" meta:resourcekey="bt_submit" />
             <br />
             <br />
             <asp:Label ID="labeldate" runat="server" Visible="False"></asp:Label>

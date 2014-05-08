@@ -117,34 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="bt_submit.text" xml:space="preserve">
-    <value>提交</value>
-  </data>
-  <data name="Label1.text" xml:space="preserve">
-    <value>请选择你的语言</value>
-  </data>
-  <data name="Label2.text" xml:space="preserve">
-    <value>我的名字叫</value>
-  </data>
-  <data name="Label3.text" xml:space="preserve">
-    <value>我是</value>
-  </data>
-  <data name="Label4.text" xml:space="preserve">
-    <value>我的毕业时间是</value>
-  </data>
-  <data name="Label5.text" xml:space="preserve">
-    <value>我希望在我毕业后能收入</value>
+  <data name="label1.text" xml:space="preserve">
+    <value>Select your language</value>
   </data>
   <data name="lb_header1.text" xml:space="preserve">
-    <value>欢迎来到6K：183</value>
+    <value>Welcome to 6K:183</value>
   </data>
   <data name="lb_header2.text" xml:space="preserve">
-    <value>软件设计与开发</value>
-  </data>
-  <data name="rb1.text" xml:space="preserve">
-    <value>男性</value>
-  </data>
-  <data name="rb2.text" xml:space="preserve">
-    <value>女性</value>
+    <value>Software design and development</value>
   </data>
 </root>

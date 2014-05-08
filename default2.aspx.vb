@@ -6,6 +6,19 @@ Imports System.Globalization
 Partial Class _Default
     Inherits System.Web.UI.Page
 
+    Protected Overrides Sub InitializeCulture()
+
+        Dim lang As String = Request("language1")
+
+        If lang IsNot Nothing Or lang <> "" Then
+
+            Thread.CurrentThread.CurrentUICulture = New CultureInfo(lang)
+            Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(lang)
+        End If
+
+    End Sub
+
+
 
     Sub PageLoad(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
@@ -25,7 +38,7 @@ Partial Class _Default
         ' Check for an empty string.
         'If Not Page.PreviousPage Is Nothing Then
 
-        'Dim salary As Decimal = CType(Session.Item("salary"), String)
+        Dim salary As Decimal = CType(Session.Item("salary"), String)
 
         'Dim gradate As String = Session("date").ToString()
         'Dim salary As String = Session("salary").ToString()
@@ -48,7 +61,7 @@ Partial Class _Default
 
         Label10.Text = Session("date")
 
-        Label12.Text = Session("salary")
+        Label12.Text = String.Format("{0:c}", salary)
 
         'End If
 
@@ -56,17 +69,7 @@ Partial Class _Default
     End Sub
 
 
-    Protected Overrides Sub InitializeCulture()
-
-        Dim lang As String = Request("language1")
-
-        If lang IsNot Nothing Or lang <> "" Then
-
-            Thread.CurrentThread.CurrentUICulture = New CultureInfo(lang)
-            Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(lang)
-        End If
-
-    End Sub
+   
 
    
 End Class
