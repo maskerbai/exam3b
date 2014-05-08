@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" culture="auto:en-US" UIculture="auto"%>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="postbackdefault.aspx.vb" Inherits="_Default" culture="auto:en-US" UIculture="auto"%>
 
 <!DOCTYPE html>
 
@@ -47,33 +47,41 @@
 
         <div id="rightside">
 
-            <asp:Label ID="Label2" runat="server"  text="My name is" meta:resourcekey="label2" />
-            &nbsp;<asp:TextBox ID="tb_name" runat="server" Width="111px"  Font-Underline="False" style="margin-bottom: 0px"></asp:TextBox>
-            <br />
-            <br />
-            <asp:Label ID="Label3" runat="server"  text="I am" meta:resourcekey="Label3" />
-            <asp:RadioButtonList ID="rbl_gender" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow">
-                <asp:ListItem>Female</asp:ListItem>
-                <asp:ListItem>Male</asp:ListItem>
-            </asp:RadioButtonList>
+
+            
 
 
+
+
+            <asp:Label ID="Label6" runat="server" Text="Hello" meta:resourcekey="Label6"></asp:Label>
+            <asp:Label ID="Label7" runat="server" ></asp:Label>
+            <asp:Label ID="Label8" runat="server" ></asp:Label>
+
+            ,<br />
+            <br />
+
+            <asp:Label ID="Label9" runat="server" Text="I hope you have a great day when you graduate on" meta:resourcekey="Label9" />
+            <asp:Label ID="Label10" runat="server" ></asp:Label> &nbsp;!<br />
+
+            <br />
+
+            <asp:Label ID="Label11" runat="server" Text="I wish you well in your career after graduation. I hope you earn" meta:resourcekey="Label11" />
+           
+            <asp:Label ID="Label12" runat="server" ></asp:Label>
+            
+            <asp:Label ID="Label13" runat="server" Text="as a salary in your first job !" meta:resourcekey="Label13" />
             <br />
             <br />
 
-            <asp:Label ID="Label4" runat="server"  text="I plan to graduate on:" meta:resourcekey="Label4" />
-            <br />&nbsp;
-            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            <asp:Label ID="Label14" runat="server" Text="Please visit me on" meta:resourcekey="Label14" />
+            
+            &nbsp;<asp:HyperLink ID="HyperLink1" runat="server">Github</asp:HyperLink>.
+            <br />
+            <br />
+            <br />
 
-            <br />
-            <asp:Label ID="Label5" runat="server"  text="When I gradute, I hope to earn:" meta:resourcekey="Label5" />
-            &nbsp;<asp:TextBox ID="tb_salary" runat="server" Width="98px"></asp:TextBox>
-            .<br />
-            <br />
-            <asp:Button ID="bt_submit" runat="server" Text="Submit" PostBackUrl="~/postbackdefault.aspx" />
-            <br />
-            <br />
-            <asp:Label ID="labeldate" runat="server" Visible="False"></asp:Label>
+
+
         </div>
 
 

@@ -16,7 +16,15 @@ Partial Class _Default
 
     End Sub
 
-    Protected Sub bt_submit_Click(sender As Object, e As EventArgs) Handles bt_submit.Click
+    
+ 
+
+    Protected Sub Calendar1_SelectionChanged(sender As Object, e As EventArgs) Handles Calendar1.SelectionChanged
+
+        Dim graduationdate As String = Calendar1.SelectedDate.ToShortDateString()
+
+        labeldate.Text = graduationdate
 
     End Sub
+
 End Class
