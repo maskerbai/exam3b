@@ -117,34 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="bt_submit.text" xml:space="preserve">
-    <value>presentar</value>
-  </data>
   <data name="label1.text" xml:space="preserve">
     <value>Seleccione su idioma</value>
   </data>
-  <data name="label2.text" xml:space="preserve">
-    <value>Mi nombre es</value>
+  <data name="label11.text" xml:space="preserve">
+    <value>Te deseo lo mejor en su carrera después de la graduación. Espero que usted gana</value>
   </data>
-  <data name="label3.text" xml:space="preserve">
-    <value>estoy</value>
+  <data name="label13.text" xml:space="preserve">
+    <value>como un salario en su primer trabajo!</value>
   </data>
-  <data name="label4.text" xml:space="preserve">
-    <value>Tengo la intención de Tengo la intención de Tengo la intención de graduarse a:</value>
+  <data name="label14.text" xml:space="preserve">
+    <value>Por favor, visite conmigo en</value>
   </data>
-  <data name="label5.text" xml:space="preserve">
-    <value>Cuando me gradúe, espero ganar:</value>
+  <data name="label6.text" xml:space="preserve">
+    <value>¡Hola</value>
+  </data>
+  <data name="label9.text" xml:space="preserve">
+    <value>Espero que tengas un gran día cuando se gradúe en</value>
   </data>
   <data name="lb_header1.text" xml:space="preserve">
     <value>Bienvenido a 6K: 183</value>
   </data>
   <data name="lb_header2.text" xml:space="preserve">
     <value>Diseño y desarrollo de software</value>
-  </data>
-  <data name="rb1.text" xml:space="preserve">
-    <value>masculino</value>
-  </data>
-  <data name="rb2.text" xml:space="preserve">
-    <value>femenino</value>
   </data>
 </root>

@@ -123,9 +123,6 @@
   <data name="label1.text" xml:space="preserve">
     <value>Select your language</value>
   </data>
-  <data name="label15.text" xml:space="preserve">
-    <value>Mrs.</value>
-  </data>
   <data name="label2.text" xml:space="preserve">
     <value>My name is</value>
   </data>
@@ -137,12 +134,6 @@
   </data>
   <data name="label5.text" xml:space="preserve">
     <value>When I gradute, I hope to earn:</value>
-  </data>
-  <data name="label6.text" xml:space="preserve">
-    <value>Hello</value>
-  </data>
-  <data name="label7.text" xml:space="preserve">
-    <value>Mr. </value>
   </data>
   <data name="lb_header1.text" xml:space="preserve">
     <value>Welcome to 6K:183</value>

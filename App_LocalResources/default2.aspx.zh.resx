@@ -126,7 +126,19 @@
   <data name="lb_header2.text" xml:space="preserve">
     <value>软件设计与开发</value>
   </data>
-  <data name="String1" xml:space="preserve">
-    <value />
+  <data name="label11.text" xml:space="preserve">
+    <value>我祝愿你在你的职业生涯，毕业后。我希望你赚</value>
+  </data>
+  <data name="label13.text" xml:space="preserve">
+    <value>在你的第一份工作的薪水！</value>
+  </data>
+  <data name="label14.text" xml:space="preserve">
+    <value>请访问我的</value>
+  </data>
+  <data name="label6.text" xml:space="preserve">
+    <value>你好</value>
+  </data>
+  <data name="label9.text" xml:space="preserve">
+    <value>我希望你有一个伟大的日子，当你毕业的</value>
   </data>
 </root>

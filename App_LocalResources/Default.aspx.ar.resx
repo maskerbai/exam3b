@@ -117,10 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="bt_submit.text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="label1.text" xml:space="preserve">
+    <value>اختر لغتك</value>
+  </data>
+  <data name="label2.text" xml:space="preserve">
+    <value>اسمي</value>
+  </data>
+  <data name="label3.text" xml:space="preserve">
+    <value>أنا</value>
+  </data>
+  <data name="label4.text" xml:space="preserve">
+    <value>أخطط لتخريج على:</value>
+  </data>
+  <data name="label5.text" xml:space="preserve">
+    <value>عند تخرجي، وآمل أن كسب:</value>
+  </data>
   <data name="lb_header1.text" xml:space="preserve">
     <value>6K:183مرحبا بكم في</value>
   </data>
   <data name="lb_header2.text" xml:space="preserve">
     <value>تصميم البرمجيات والتطوير</value>
+  </data>
+  <data name="rb1.text" xml:space="preserve">
+    <value>ذكر</value>
+  </data>
+  <data name="rb2.text" xml:space="preserve">
+    <value>أنثى</value>
   </data>
 </root>

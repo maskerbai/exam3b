@@ -120,6 +120,21 @@
   <data name="label1.text" xml:space="preserve">
     <value>Select your language</value>
   </data>
+  <data name="label11.text" xml:space="preserve">
+    <value>I wish you well in your career after graduation. I hope you earn</value>
+  </data>
+  <data name="label13.text" xml:space="preserve">
+    <value>as a salary in your first job!</value>
+  </data>
+  <data name="label14.text" xml:space="preserve">
+    <value>Please visit me on</value>
+  </data>
+  <data name="label6.text" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="label9.text" xml:space="preserve">
+    <value>I hope you have a great day when you graduate on</value>
+  </data>
   <data name="lb_header1.text" xml:space="preserve">
     <value>Welcome to 6K:183</value>
   </data>
