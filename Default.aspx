@@ -27,7 +27,7 @@
 
         <div id="leftside">
             <center>
-                <asp:Label ID="Label1" runat="server" Text="Select your language"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Text="Select your language" meta:resourcekey="label1" ></asp:Label>
                 <br />
                 <br />
                 
@@ -52,10 +52,8 @@
             <br />
             <br />
             <asp:Label ID="Label3" runat="server"  text="I am" meta:resourcekey="Label3" />
-            <asp:RadioButtonList ID="rbl_gender" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow">
-                <asp:ListItem>Female</asp:ListItem>
-                <asp:ListItem>Male</asp:ListItem>
-            </asp:RadioButtonList>
+            &nbsp;<asp:RadioButton ID="rb1" runat="server" GroupName="gender" Text="Male" meta:resourcekey="rb1" />
+            <asp:RadioButton ID="rb2" runat="server" GroupName="gender" Text="Female" meta:resourcekey="rb2"/>
 
 
             <br />
@@ -67,13 +65,16 @@
 
             <br />
             <asp:Label ID="Label5" runat="server"  text="When I gradute, I hope to earn:" meta:resourcekey="Label5" />
-            &nbsp;<asp:TextBox ID="tb_salary" runat="server" Width="98px"></asp:TextBox>
+            &nbsp;<asp:TextBox ID="tb_salary" runat="server" Width="100px"></asp:TextBox>
             .<br />
             <br />
-            <asp:Button ID="bt_submit" runat="server" Text="Submit" PostBackUrl="~/postbackdefault.aspx" />
+            <asp:Button ID="bt_submit" runat="server" meta:resourcekey="bt_submit" PostBackUrl="~/postbackdefault.aspx" />
             <br />
             <br />
             <asp:Label ID="labeldate" runat="server" Visible="False"></asp:Label>
+            <br />
+            <br />
+            
         </div>
 
 

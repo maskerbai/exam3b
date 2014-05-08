@@ -7,39 +7,51 @@ Partial Class _Default
     Inherits System.Web.UI.Page
 
 
-    Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+    Sub PageLoad(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
-        Dim name As String
-        Dim salary As Double
-        Dim gender As String
-        Dim graduationdate As String
+        'Dim name As String
+        'Dim salary As Double
+        'Dim male As String
+        'Dim female As String
+        'Dim graduationdate As String
 
         ' Get the value of TextBox1 from the page that posted to this page.
-        name = CType((PreviousPage.FindControl("tb_name")), TextBox).Text
-        salary = CType((PreviousPage.FindControl("tb_salary")), TextBox).Text
-        gender = CType((PreviousPage.FindControl("rbl_gender")), RadioButtonList).Text
-        graduationdate = CType((PreviousPage.FindControl("labeldate")), Label).Text
+        'name = CType((PreviousPage.FindControl("tb_name")), TextBox).Text
+        'salary = CType((PreviousPage.FindControl("tb_salary")), TextBox).Text
+        'male = CType((PreviousPage.FindControl("rb1")), RadioButton).Checked
+        'female = CType((PreviousPage.FindControl("rb2")), RadioButton).Checked
+        'graduationdate = CType((PreviousPage.FindControl("labeldate")), Label).Text
 
         ' Check for an empty string.
-        If Not (name = "") Then
+        'If Not Page.PreviousPage Is Nothing Then
 
-            If gender = "Male" Then
-                Label7.Text = "Mr."
-            Else : Label7.Text = "Mrs."
-            End If
+        'Dim salary As Decimal = CType(Session.Item("salary"), String)
 
-            Label8.Text = name
-
-            Label10.Text = graduationdate
-
-            Label12.Text = String.Format("{0:C}", salary)
+        'Dim gradate As String = Session("date").ToString()
+        'Dim salary As String = Session("salary").ToString()
 
 
-        Else
 
 
+        If Session("male") = True Then
+            Label7.Text = "Mr."
 
         End If
+
+        If Session("female") = True Then
+            Label15.Text = "Mrs."
+
+        End If
+
+
+        Label8.Text = Session("name")
+
+        Label10.Text = Session("date")
+
+        Label12.Text = Session("salary")
+
+        'End If
+
 
     End Sub
 

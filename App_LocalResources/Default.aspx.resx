@@ -117,10 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="bt_submit.text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="label1.text" xml:space="preserve">
+    <value>Select your language</value>
+  </data>
+  <data name="label15.text" xml:space="preserve">
+    <value>Mrs.</value>
+  </data>
+  <data name="label2.text" xml:space="preserve">
+    <value>My name is</value>
+  </data>
+  <data name="label3.text" xml:space="preserve">
+    <value>I am</value>
+  </data>
+  <data name="label4.text" xml:space="preserve">
+    <value>I plan to graduate on:</value>
+  </data>
+  <data name="label5.text" xml:space="preserve">
+    <value>When I gradute, I hope to earn:</value>
+  </data>
+  <data name="label6.text" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="label7.text" xml:space="preserve">
+    <value>Mr. </value>
+  </data>
   <data name="lb_header1.text" xml:space="preserve">
     <value>Welcome to 6K:183</value>
   </data>
   <data name="lb_header2.text" xml:space="preserve">
     <value>Software design and development</value>
+  </data>
+  <data name="rb1.text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="rb2.text" xml:space="preserve">
+    <value>Female</value>
   </data>
 </root>

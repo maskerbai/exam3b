@@ -27,11 +27,11 @@
 
         <div id="leftside">
             <center>
-                <asp:Label ID="Label1" runat="server" Text="Select your language"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Text="Select your language" meta:resourcekey="label1"></asp:Label>
                 <br />
                 <br />
                 
-            <asp:DropDownList ID="language1" runat="server" AutoPostBack="true" Width="108px" Height="22px">
+            <asp:DropDownList ID="language1" runat="server" Width="108px" Height="22px">
                 
                 
                 <asp:ListItem Value="en">English</asp:ListItem>
@@ -54,7 +54,8 @@
 
 
             <asp:Label ID="Label6" runat="server" Text="Hello" meta:resourcekey="Label6"></asp:Label>
-            <asp:Label ID="Label7" runat="server" ></asp:Label>
+            <asp:Label ID="Label7" runat="server" meta:resourcekey="label7"></asp:Label>
+            <asp:Label ID="Label15" runat="server" meta:resourcekey="label15" />
             <asp:Label ID="Label8" runat="server" ></asp:Label>
 
             ,<br />
