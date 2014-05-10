@@ -22,6 +22,7 @@ Partial Class _Default
 
     Sub PageLoad(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
+        
         'Dim name As String
         'Dim salary As Double
         'Dim male As String
@@ -69,7 +70,6 @@ Partial Class _Default
     End Sub
 
 
-   
-
-   
+ 
+  
 End Class

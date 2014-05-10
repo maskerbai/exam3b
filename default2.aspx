@@ -31,7 +31,7 @@
                 <br />
                 <br />
                 
-            <asp:DropDownList ID="language1" runat="server" Width="108px" AutoPostBack="true" Height="22px">
+            <asp:DropDownList ID="language1" runat="server" Width="108px" AutoPostBack="true" Height="22px" AppendDataBoundItems="True">
                 
                 
                 <asp:ListItem Value="en">English</asp:ListItem>
@@ -71,7 +71,7 @@
 
             <asp:Label ID="Label14" runat="server" Text="Please visit me on" meta:resourcekey="Label14" />
             
-            &nbsp;<asp:HyperLink ID="HyperLink1" runat="server">Github</asp:HyperLink>.
+            <asp:HyperLink id="link1" runat="server" Text="Github" NavigateUrl="https://github.com/maskerbai" Target="_blank" />
             <br />
             <br />
             <br />

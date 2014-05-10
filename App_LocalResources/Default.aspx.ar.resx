@@ -135,6 +135,9 @@
   <data name="label5.text" xml:space="preserve">
     <value>عند تخرجي، وآمل أن كسب:</value>
   </data>
+  <data name="label6.text" xml:space="preserve">
+    <value>يرجى إدخال رقم</value>
+  </data>
   <data name="lb_header1.text" xml:space="preserve">
     <value>6K:183مرحبا بكم في</value>
   </data>

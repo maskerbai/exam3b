@@ -31,7 +31,7 @@
                 <br />
                 <br />
                 
-            <asp:DropDownList ID="language1" runat="server" AutoPostBack="true" Width="110px" Height="22px">
+            <asp:DropDownList ID="language1" runat="server" AutoPostBack="true" Width="110px" Height="22px" >
                 
                 
                 <asp:ListItem Value="en">English</asp:ListItem>
@@ -48,7 +48,7 @@
         <div id="rightside">
 
             <asp:Label ID="Label2" runat="server"  text="My name is" meta:resourcekey="label2" />
-            &nbsp;<asp:TextBox ID="tb_name" runat="server" Width="111px"  Font-Underline="False" style="margin-bottom: 0px"></asp:TextBox>
+            &nbsp;<asp:TextBox ID="tb_name" runat="server" Width="111px"  Font-Underline="False" style="margin-bottom: 0px" ></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="Label3" runat="server"  text="I am" meta:resourcekey="Label3" />
@@ -65,8 +65,9 @@
 
             <br />
             <asp:Label ID="Label5" runat="server"  text="When I gradute, I hope to earn:" meta:resourcekey="Label5" />
-            &nbsp;<asp:TextBox ID="tb_salary" runat="server" Width="100px"></asp:TextBox>
-            .<br />
+            &nbsp;<asp:TextBox ID="tb_salary" runat="server" Width="100px" ></asp:TextBox>
+            .<asp:Label ID="Label6" runat="server" Text="Please enter a number." meta:resourcekey="label6"></asp:Label>
+            <br />
             <br />
             <asp:Button ID="bt_submit" runat="server" meta:resourcekey="bt_submit" />
             <br />

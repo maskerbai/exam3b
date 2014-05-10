@@ -147,4 +147,7 @@
   <data name="rb2.text" xml:space="preserve">
     <value>女性</value>
   </data>
+  <data name="label6.text" xml:space="preserve">
+    <value>请输入一个数字</value>
+  </data>
 </root>

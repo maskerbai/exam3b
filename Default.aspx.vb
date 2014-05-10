@@ -43,6 +43,7 @@ Partial Class _Default
         Session("female") = rb2.Checked
         Session("date") = labeldate.Text
 
+
     End Sub
 
 
@@ -51,4 +52,8 @@ Partial Class _Default
     Protected Sub bt_submit_Click(sender As Object, e As EventArgs) Handles bt_submit.Click
         Response.Redirect("~/default2.aspx")
     End Sub
+
+
+
+   
 End Class

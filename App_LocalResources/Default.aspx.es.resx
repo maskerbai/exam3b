@@ -135,6 +135,9 @@
   <data name="label5.text" xml:space="preserve">
     <value>Cuando me gradúe, espero ganar:</value>
   </data>
+  <data name="label6.text" xml:space="preserve">
+    <value>Por favor, introduzca un número</value>
+  </data>
   <data name="lb_header1.text" xml:space="preserve">
     <value>Bienvenido a 6K: 183</value>
   </data>
